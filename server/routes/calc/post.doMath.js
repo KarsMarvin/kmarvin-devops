@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { check, validateResult }  = require("express-validator");
-const CalcService = require('../../services/CalcService');
+const CalcService = require('../../service/CalcService');
 
 router.post(
       '/',

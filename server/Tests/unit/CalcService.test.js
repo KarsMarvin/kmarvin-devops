@@ -1,4 +1,4 @@
-const CalcService = require('../../services/CalcService');
+const CalcService = require('../../service/CalcService');
 
 describe('calc service tests', () => {
     it('should throw an error when operation is / and second operand is 0', () => {
