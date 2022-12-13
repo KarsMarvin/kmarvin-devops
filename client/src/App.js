@@ -32,6 +32,7 @@ function App() {
   }
   const calculate=()=>{
     setCalc(eval(calc).toString());
+    return ;
   }
   const deleteLast=()=>{
     if(calc == ''){
